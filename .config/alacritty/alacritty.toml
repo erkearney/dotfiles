@@ -1,0 +1,8 @@
+import = ["/home/e/.config/alacritty/themes/dracula.toml"]
+
+[window]
+decorations = "none"
+
+[window.padding]
+x = 7
+y = 0
