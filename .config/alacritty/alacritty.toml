@@ -1,8 +1,11 @@
 import = ["/home/e/.config/alacritty/themes/dracula.toml"]
 
+[font]
+size = 18
+
 [window]
 decorations = "none"
 
 [window.padding]
-x = 7
-y = 0
+x = 10
+y = 10

@@ -24,4 +24,12 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
+if [[ "$(uname)" == "Darwin" ]]; then
+    export XDG_CONFIG_HOME="/Users/$USER/.config"
+else
+    export XDG_CONFIG_HOME="/home/$USER/.config"
+fi
+
 alias ledger='/opt/ledger-live-desktop-2.77.2-linux-x86_64.AppImage'
+
+touch ~/.hushlogin
